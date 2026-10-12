@@ -90,9 +90,7 @@ Cortes generados: 10.000, 11.000, 11.500, 12.000, 12.040, 12.350, 12.500, 12.700
 
 ## 7. Reproducibilidad
 
-* Semillas primigenias de las corridas finales: `501367` (5 semillas del modelo final), `898543` (10 semillas) y `500153` (5 semillas). La BO y la curva de junio se hicieron con `PARAM$semilla_primigenia = 898543`.
-* Las 20 semillas se generan en una sola corrida a partir de `PARAM$semillas_por_primigenia` (`c("501367"= 5, "898543"= 10, "500153"= 5)`): para cada primigenia se hace `set.seed()` y `sample(100000:999999, n)`. Se reutilizan en la curva de junio y en el modelo final.
-* `deterministic= TRUE` y `force_row_wise= TRUE` en LightGBM.
+* Semillas primigenias de las corridas finales: `501367` (5 semillas del modelo final), `898543` (10 semillas) y `500153` (5 semillas). La BO y la curva de junio se hicieron con `PARAM$semilla_primigenia = 501367`.
 
 ## 8. Cómo correrlo
 
