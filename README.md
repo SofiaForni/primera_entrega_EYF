@@ -1,7 +1,7 @@
 # Primera entrega – Feature engineering con ranking + LightGBM (BO + ensamble de semillas)
 
 
-Predicción de bajas de clientes para el mes **202108** a partir de un LightGBM entrenado sobre variables rankeadas, con optimización bayesiana de hiperparámetros y un ensamble de 20 modelos finales (5 semillas con 501367, 10 con la primigenia 898543 y 5 con 500153).
+Predicción de bajas de clientes para el mes **202108** a partir de un LightGBM entrenado sobre variables rankeadas, con optimización bayesiana de hiperparámetros y un ensamble de 20 modelos finales (5 semillas con 501367, 10 con la primigenia 898543 y 5 con 500153). Corte de 11000 enviado para la entrega.
 
 ---
 
